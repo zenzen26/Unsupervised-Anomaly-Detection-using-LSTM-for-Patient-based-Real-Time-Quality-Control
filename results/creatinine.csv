@@ -1,0 +1,73 @@
+analyte,detector,bias,limit,n_days,fa_day_rate,detect_rate,detect_within_100,median_delay,mean_delay_detected,median_delay_min
+creatinine,MA(n=50) paper limits,-0.2,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,-0.1,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,-0.05,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,-0.03,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,-0.02,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,-0.01,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,0.01,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,0.02,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,0.03,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,0.05,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,0.1,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=50) paper limits,0.2,3.0,18,0.0,0.0,0.0,inf,,inf
+creatinine,MA(n=100),-0.2,0.384,18,0.111,1.0,0.667,90.0,107.6,72.0
+creatinine,MA(n=100),-0.1,0.384,18,0.111,0.556,0.0,427.5,227.4,591.5
+creatinine,MA(n=100),-0.05,0.384,18,0.111,0.222,0.0,inf,220.8,inf
+creatinine,MA(n=100),-0.03,0.384,18,0.111,0.056,0.0,inf,414.0,inf
+creatinine,MA(n=100),-0.02,0.384,18,0.111,0.0,0.0,inf,,inf
+creatinine,MA(n=100),-0.01,0.384,18,0.111,0.0,0.0,inf,,inf
+creatinine,MA(n=100),0.01,0.384,18,0.111,0.056,0.0,inf,113.0,inf
+creatinine,MA(n=100),0.02,0.384,18,0.111,0.056,0.0,inf,109.0,inf
+creatinine,MA(n=100),0.03,0.384,18,0.111,0.056,0.0,inf,109.0,inf
+creatinine,MA(n=100),0.05,0.384,18,0.111,0.056,0.0,inf,108.0,inf
+creatinine,MA(n=100),0.1,0.384,18,0.111,0.389,0.056,inf,207.9,inf
+creatinine,MA(n=100),0.2,0.384,18,0.111,0.889,0.556,99.5,94.2,73.0
+creatinine,EWMA(lam=0.02),-0.2,0.4315,18,0.056,1.0,0.611,94.5,112.2,78.0
+creatinine,EWMA(lam=0.02),-0.1,0.4315,18,0.056,0.5,0.0,inf,245.0,inf
+creatinine,EWMA(lam=0.02),-0.05,0.4315,18,0.056,0.111,0.0,inf,310.0,inf
+creatinine,EWMA(lam=0.02),-0.03,0.4315,18,0.056,0.0,0.0,inf,,inf
+creatinine,EWMA(lam=0.02),-0.02,0.4315,18,0.056,0.0,0.0,inf,,inf
+creatinine,EWMA(lam=0.02),-0.01,0.4315,18,0.056,0.0,0.0,inf,,inf
+creatinine,EWMA(lam=0.02),0.01,0.4315,18,0.056,0.0,0.0,inf,,inf
+creatinine,EWMA(lam=0.02),0.02,0.4315,18,0.056,0.0,0.0,inf,,inf
+creatinine,EWMA(lam=0.02),0.03,0.4315,18,0.056,0.0,0.0,inf,,inf
+creatinine,EWMA(lam=0.02),0.05,0.4315,18,0.056,0.056,0.0,inf,113.0,inf
+creatinine,EWMA(lam=0.02),0.1,0.4315,18,0.056,0.333,0.0,inf,237.3,inf
+creatinine,EWMA(lam=0.02),0.2,0.4315,18,0.056,0.889,0.333,124.5,116.6,94.5
+creatinine,CUSUM(k=0.25),-0.2,19.9008,18,0.056,1.0,0.667,76.0,101.8,61.0
+creatinine,CUSUM(k=0.25),-0.1,19.9008,18,0.056,0.5,0.056,inf,251.6,inf
+creatinine,CUSUM(k=0.25),-0.05,19.9008,18,0.056,0.167,0.0,inf,262.7,inf
+creatinine,CUSUM(k=0.25),-0.03,19.9008,18,0.056,0.0,0.0,inf,,inf
+creatinine,CUSUM(k=0.25),-0.02,19.9008,18,0.056,0.0,0.0,inf,,inf
+creatinine,CUSUM(k=0.25),-0.01,19.9008,18,0.056,0.0,0.0,inf,,inf
+creatinine,CUSUM(k=0.25),0.01,19.9008,18,0.056,0.0,0.0,inf,,inf
+creatinine,CUSUM(k=0.25),0.02,19.9008,18,0.056,0.056,0.0,inf,176.0,inf
+creatinine,CUSUM(k=0.25),0.03,19.9008,18,0.056,0.056,0.0,inf,161.0,inf
+creatinine,CUSUM(k=0.25),0.05,19.9008,18,0.056,0.056,0.0,inf,112.0,inf
+creatinine,CUSUM(k=0.25),0.1,19.9008,18,0.056,0.389,0.056,inf,209.9,inf
+creatinine,CUSUM(k=0.25),0.2,19.9008,18,0.056,0.944,0.444,114.0,109.8,82.5
+creatinine,LSTM-AE(T=70),-0.2,1.3093,18,0.056,0.056,0.056,inf,50.0,inf
+creatinine,LSTM-AE(T=70),-0.1,1.3093,18,0.056,0.056,0.0,inf,112.0,inf
+creatinine,LSTM-AE(T=70),-0.05,1.3093,18,0.056,0.0,0.0,inf,,inf
+creatinine,LSTM-AE(T=70),-0.03,1.3093,18,0.056,0.0,0.0,inf,,inf
+creatinine,LSTM-AE(T=70),-0.02,1.3093,18,0.056,0.0,0.0,inf,,inf
+creatinine,LSTM-AE(T=70),-0.01,1.3093,18,0.056,0.0,0.0,inf,,inf
+creatinine,LSTM-AE(T=70),0.01,1.3093,18,0.056,0.0,0.0,inf,,inf
+creatinine,LSTM-AE(T=70),0.02,1.3093,18,0.056,0.056,0.056,inf,64.0,inf
+creatinine,LSTM-AE(T=70),0.03,1.3093,18,0.056,0.0,0.0,inf,,inf
+creatinine,LSTM-AE(T=70),0.05,1.3093,18,0.056,0.056,0.0,inf,134.0,inf
+creatinine,LSTM-AE(T=70),0.1,1.3093,18,0.056,0.0,0.0,inf,,inf
+creatinine,LSTM-AE(T=70),0.2,1.3093,18,0.056,0.278,0.0,inf,251.2,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),-0.2,0.0884,18,0.278,1.0,0.222,121.5,122.4,94.0
+creatinine,LSTM-AE-MA(w=50)(T=70),-0.1,0.0884,18,0.278,0.333,0.111,inf,174.2,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),-0.05,0.0884,18,0.278,0.167,0.056,inf,184.3,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),-0.03,0.0884,18,0.278,0.222,0.056,inf,164.8,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),-0.02,0.0884,18,0.278,0.222,0.056,inf,160.5,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),-0.01,0.0884,18,0.278,0.167,0.0,inf,204.0,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),0.01,0.0884,18,0.278,0.0,0.0,inf,,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),0.02,0.0884,18,0.278,0.0,0.0,inf,,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),0.03,0.0884,18,0.278,0.0,0.0,inf,,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),0.05,0.0884,18,0.278,0.056,0.0,inf,277.0,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),0.1,0.0884,18,0.278,0.222,0.056,inf,195.2,inf
+creatinine,LSTM-AE-MA(w=50)(T=70),0.2,0.0884,18,0.278,0.778,0.333,159.5,157.1,124.0

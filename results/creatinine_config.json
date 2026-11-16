@@ -1,0 +1,62 @@
+{
+  "args": {
+    "analyte": "creatinine",
+    "data_dir": "data",
+    "out": "results",
+    "biases": [
+      0.01,
+      0.02,
+      0.03,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "q": 0.9,
+    "ref_bias": 0.05,
+    "onset": 300,
+    "min_post": 100,
+    "sweep_q": [
+      0.5,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      0.98
+    ],
+    "lstm": true,
+    "T": 70,
+    "ma_window": 50,
+    "seed": 0
+  },
+  "n_days": {
+    "train": 55,
+    "val": 18,
+    "test": 18
+  },
+  "preprocessor": {
+    "mu": 73.35889119139863,
+    "sd": 25.360817691441262,
+    "lo": "-inf",
+    "hi": "150.0"
+  },
+  "detectors": {
+    "MA(n=50) paper limits": {
+      "limit": 3.0
+    },
+    "MA(n=100)": {
+      "limit": 0.38401313259579034
+    },
+    "EWMA(lam=0.02)": {
+      "limit": 0.4315191229900687
+    },
+    "CUSUM(k=0.25)": {
+      "limit": 19.90077685941807
+    },
+    "LSTM-AE(T=70)": {
+      "limit": 1.3093219795414794
+    },
+    "LSTM-AE-MA(w=50)(T=70)": {
+      "limit": 0.0884017969678002
+    }
+  }
+}
